@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-<label for="${1}">${2}</label>
-<input type="${3}" name="${1}" value="" id="${1}" placeholder="${4}" required="${5}" />
+<select name="${1}" id="${2}" class="${1}">
+	<option value="${3}">${4}</option>
+</select>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>inputl</tabTrigger>
+	<tabTrigger>select</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php, text.html</scope>
 </snippet>
-

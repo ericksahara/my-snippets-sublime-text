@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:Array}.forEach(function(currentValue, index, array){
+    ${2:// Do something with currentValue or array[index]}
+})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>foreach</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
